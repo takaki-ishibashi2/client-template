@@ -1,5 +1,5 @@
 {
-  "name": "TBD",
+  "name": "webapp-client-template",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,15 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "TBD"
+    "url": ""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "TBD"
+    "url": ""
   },
-  "homepage": "TBD",
+  "homepage": "",
   "devDependencies": {
     "@babel/core": "^7.0.1",
     "@babel/preset-env": "^7.0.0",
