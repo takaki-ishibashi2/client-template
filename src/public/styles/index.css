@@ -1,0 +1,75 @@
+html {
+  font-family: 'Courier New', courier, monospace;
+}
+.header {
+  background-color: #9933cc;
+  color: #ffffff;
+  padding: 15px;
+}
+.menu ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+.menu li {
+  background-color: #33b5e5;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  color: #ffffff;
+  margin-bottom: 7px;
+  padding: 8px;
+}
+.menu li:hover {
+  background-color: #0099cc;
+}
+.rside {
+  background-color: #33b5e5;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  color: #ffffff;
+  font-size: 14px;
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+@media only screen and (max-width: 600px) {
+  /* Extra small device */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 601px) {
+  /* Small device */
+  .col-s-1 {width: 8.33%}
+  .col-s-2 {width: 16.66%}
+  .col-s-3 {width: 25%}
+  .col-s-4 {width: 33.33%}
+  .col-s-5 {width: 41.66%}
+  .col-s-6 {width: 50%}
+  .col-s-7 {width: 58.33%}
+  .col-s-8 {width: 66.66}
+  .col-s-9 {width: 75%}
+  .col-s-10 {width: 83.33%}
+  .col-s-11 {width: 91.66%}
+  .col-s-12 {width: 100%}
+}
+@media only screen and (min-width: 992px) {
+  /* Large device */
+  .col-l-1 {width: 8.33%}
+  .col-l-2 {width: 16.66%}
+  .col-l-3 {width: 25%}
+  .col-l-4 {width: 33.33%}
+  .col-l-5 {width: 41.66%}
+  .col-l-6 {width: 50%}
+  .col-l-7 {width: 58.33%}
+  .col-l-8 {width: 66.66}
+  .col-l-9 {width: 75%}
+  .col-l-10 {width: 83.33%}
+  .col-l-11 {width: 91.66%}
+  .col-l-12 {width: 100%}
+}

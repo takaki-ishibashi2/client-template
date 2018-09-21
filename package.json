@@ -1,11 +1,11 @@
 {
-  "name": "webapp-client-template",
+  "name": "client-template",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "copySource": "cp ./src/server.js build/ && cp ./src/public/index.html build/",
+    "copySource": "cp src/server.js build/ && cp src/public/*.html build/ && cp src/public/styles/*.css build/",
     "clean": "rm -rf ./build",
     "build": "npm run clean && webpack --mode production && npm run copySource",
     "start": "node build/server.js"
