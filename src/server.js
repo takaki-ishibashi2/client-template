@@ -1,9 +1,10 @@
 const express = require('express');
 const path = require('path');
 const server = express();
-const PORT = 8081;
+const compression = require('compression');
 require('dotenv').config();
 
+server.use(compression());
 server.use(express.static(path.join(__dirname)));
 
 server.get('/', (req, res) => {
