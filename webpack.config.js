@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  mode: 'development',
+  mode: 'production',
   entry: './src/public/index.jsx',
   output: {
     path: path.resolve(__dirname, 'build'),
