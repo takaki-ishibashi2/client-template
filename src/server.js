@@ -11,6 +11,10 @@ server.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'index.html'));
 });
 
+server.get('/profile', (req, res) => {
+  res.sendFile(path.join(__dirname, 'index.html'));
+});
+
 const listener = server.listen(process.env.PORT || 1234, () => {
   console.log(`Listenning on port ${listener.address().port}`);
 });
