@@ -1,15 +1,17 @@
 import React from 'react';
+import { Switch, Route } from 'react-router-dom';
 
-import TopBar from './components/TopBar';
-import Row from './components/Row';
-import Footer from './components/Footer';
+import TopPage from './pages/TopPage';
+import ProfilePage from './pages/ProfilePage';
+
 export default class App extends React.Component {
   render() {
     return (
       <div>
-        <TopBar />
-        <Row />
-        <Footer />
+        <Switch>
+        <Route exact path="/" component={TopPage} />
+        <Route path="/profile" component={ProfilePage} />
+        </Switch>
       </div>
     );
   }
